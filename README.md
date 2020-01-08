@@ -2,6 +2,11 @@
 
 Basic demonstration of flashing the onboard LED on PORTB and 4 LED's on PORTD, using the inefficient busy loop (`_delay_ms`) present in `avr-libc`.
 
+```c
+#include <avr/io.h>
+#include <util/delay.h>
+```
+
 Setup Data Direction Registers for PORTB and PORTD:
 
 ```c
