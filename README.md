@@ -9,5 +9,5 @@ Setup Data Direction Registers for PORTB and PORTD:
 
 Toggle the LED's by toggling the appropriate register bits:
 
-  PORTB ^= (1 << 5);
-  PORTD ^= (1 << PD2) | (1 << PD3) | (1 << PD4) | (1 << PD5);
+    PORTB ^= (1 << 5);
+    PORTD ^= (1 << PD2) | (1 << PD3) | (1 << PD4) | (1 << PD5);
